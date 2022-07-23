@@ -1,0 +1,282 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+.full {
+
+    width: 430px;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin: auto;
+}
+
+.latter {
+    color: aliceblue;
+    width: 65%;
+    font-size: 20px;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 70px;
+}
+
+.image {
+    width: 330px;
+    height: 230px;
+    padding-left: 35px;
+    padding-top: 13px;
+}
+
+
+
+.world-cop {
+
+    align-items: center;
+    appearance: none;
+    background-clip: padding-box;
+    background-color: initial;
+    background-image: none;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: Eina01, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: center;
+    line-height: 24px;
+    margin: 0;
+    min-height: 64px;
+    outline: none;
+    overflow: visible;
+    padding: 19px 26px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: auto;
+    word-break: keep-all;
+    z-index: 0;
+}
+
+
+
+.world-cop:before,
+.world-cop:after {
+    border-radius: 80px;
+}
+
+.world-cop:before {
+    background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.world-cop:after {
+    background-color: initial;
+    background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+    bottom: 4px;
+    content: "";
+    display: block;
+    left: 4px;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    transition: all 100ms ease-out;
+    z-index: -1;
+}
+
+.world-cop:hover:not(:disabled):before {
+    background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
+}
+
+.world-cop:hover:not(:disabled):after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition-timing-function: ease-in;
+    opacity: 0;
+}
+
+.world-cop:active:not(:disabled) {
+    color: #ccc;
+}
+
+.world-cop:active:not(:disabled):before {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.world-cop:active:not(:disabled):after {
+    background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    top: 4px;
+}
+
+.world-cop:disabled {
+    cursor: default;
+    opacity: .24;
+    clear: both;
+}
+
+.section2 {
+    width: 1150px;
+    height: 1500px;
+    background-color: rgb(137, 8, 8);
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+
+
+
+
+}
+
+
+
+
+.manu-body {
+    text-align: center;
+
+    padding: 15px;
+
+
+}
+
+.manu-body .btn {
+    background-color: #396857;
+
+    border: 1px solid rgb(91, 243, 91);
+
+    color: white;
+
+    padding: 5px 10px;
+
+
+
+
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    border-radius: 15px;
+
+
+}
+
+.card-body {
+
+    padding: 10px;
+
+
+
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 430px;
+    height: 420px;
+
+    margin: auto;
+    border-radius: 8px;
+    padding: 60px 0;
+
+
+
+}
+
+.pic {
+    width: 430px;
+    height: 200;
+}
+
+.card:hover {
+    box-shadow: 8px 16px 36px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.transper {
+    padding: 10px;
+    margin: auto;
+}
+
+.blog-btn {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+
+
+
+.section-3 {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer {
+    margin: auto;
+    font-size: 23px;
+    text-align: center;
+    color: #fff;
+}
+
+hr {
+    padding: 5px solid;
+    width: 80%;
+    margin: auto;
+    height: 1.8px;
+    background-color: aliceblue;
+}
+
+.footer-info {
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+a {
+    font-size: 15px;
+    padding: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
